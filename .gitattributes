@@ -1,0 +1,5 @@
+*.html linguist-language=php
+*.css linguist-language=php
+*.ino linguist-language=c
+*.c linguist-language=c
+*.h linguist-language=c
