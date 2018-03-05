@@ -1,0 +1,55 @@
+<div class="pages">
+  <div data-page="projects" class="page no-toolbar no-navbar">
+    <div class="page-content">
+    
+     <div class="navbarpages">
+       <div class="navbar_home_link"><a href="index.html"><img src="images/icons/white/home.png" alt="" title="" /></a></div>
+       <div class="navbar_page_center">参数设置</div>
+       <div class="menu_open_icon_white"><a href="#" class="open-panel"><img src="images/menu_open.png" alt="" title="" /></a></div>
+     </div>
+     
+     <div id="pages_maincontent">
+      
+      <h2 class="page_subtitle">Smart features</h2>
+	  <div class="content-block">
+      <h4>Login</h4>
+            <div class="contactform">
+            <form id="SettingForm" action="conf_action.php" method="POST" class="ajax-submit">
+			<div class="formbox">
+				<label>闹钟1:</label>
+			</div>
+			<div class="formbox">
+				<label> </label>
+				<input class="form_input required" type="text" id="a1h" name="a1h" size="2" maxlength="2" value="<?php echo $row['a1h'] ?>"/><label1>:</label1>
+				<input class="form_input required" type="text" id="a1m" name="a1m" size="2" maxlength="2" value="<?php echo $row['a1m'] ?>"/><label1>:</label1>
+				<input class="form_input required" type="text" id="a1s" name="a1s" size="2" maxlength="2" value="<?php echo $row['a1s'] ?>"/>
+			</div>
+			<div class="formbox">
+				<label>闹钟2:</label>
+			</div>
+			<div class="formbox">
+				<label> </label>
+				<input class="form_input required" type="text" id="a2h" name="a2h" size="2" maxlength="2" value="<?php echo $row['a2h'] ?>"/><label1>:</label1>
+				<input class="form_input required" type="text" id="a2m" name="a2m" size="2" maxlength="2" value="<?php echo $row['a2m'] ?>"/><label1>:</label1>
+				<input class="form_input required" type="text" id="a2s" name="a2s" size="2" maxlength="2" value="<?php echo $row['a2s'] ?>"/>
+			</div>
+			
+			<div class="formbox">
+				<label>次 数: </label>
+			</div>
+			<div class="formbox">
+				<label> </label>
+				<input class="form_input required" type="text" id="count" name="count" size="2" maxlength="2" value="<?php echo $row['count'] ?>"/>
+			</div>
+	
+            <input type="submit" name="submit" class="form_submit" id="submit" value="提交" />
+            </form>
+            </div>
+    </div>
+       
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
